@@ -1,7 +1,7 @@
 
 # Project Introduction/Goal
 
-For my Module 2 final project, I was tasked with cleaning up a housing data set for King County in Washington and performing a multiple linear regression analysis on the data. The aim was to build a model that successfully predicts the price of a house using features from our data set. 
+For my Module 2 final project, I was tasked with cleaning up a housing data set for King County in Washington and performing a multiple linear regression analysis on the data. The aim was to build a model that successfully predicts the price of a house using features from our data set, using adjusted R-Squared as our metric. My deliverables will be a working machine learning model to predict price and a non-technicaly slideshow presentation of my findings, conclusions and recommendations.
 
 # Libraries used in this project
 * Pandas
@@ -12,34 +12,32 @@ For my Module 2 final project, I was tasked with cleaning up a housing data set 
 * SciPy
 * statsmodels
 
+# Methods 
+## (based on OSEMN framework)
 
-# Obtain Data
-
-Let's begin by importing our initial libraries for exploration and quick analysis!
-
-# Scrub
-## Dealing with missing values
-
-Fixing Null values for 'waterfront'.
-
-Fixing missing 'view' values.
-
-Assigning median value to 'yr_renovated'.
-
-Date (date sold) is an object/string. Converting to datetime format now so we can potentially look at prices over time later.
-
-## Removing An Outlier
-
-Bedroom outlier removal.
-
-Assigning median value to '?' character found in 'sqft-basement'.
-
-Dropping first instance of duplicated (resold homes)
-
-
-## Checking for Other Outliers
-
-Taking out any values from our table that are over 3 standard deviations from the mean of their respective columns.
+* Obtain data and import necessary libraries
+* Scrub: Cleaning our data
+    * dealing with missing values
+        * Assigning 0 to null 'waterfront' values
+        * Dropping rows with missing 'view values'
+        * Assigning median value to 'yr_renovated'
+    * Removing outliers from 3 standard deviations from the mean in certain columns
+    * Assigning median to placeholder values in'sqft-basement'
+    * Dropping instances of resold homes (duplicate sales)
+    * Assesing multicollinearity
+    * Dealing with categorical variables
+        * One-hot encoding 
+    * Log-transform continuous variables
+* EDA
+    * Exploring various potential relationships between selected features and sale price
+        * Bedrooms
+        * Bathrooms
+        * sq-footage
+* Train-Test Split and Baseline Model
+* Model tuning and refinement for highest adjusted R-squared
+* Cross Validation
+* Conclusions
+* Visualizations to support findings.
 
 
 ## Checking for Initial multicollinearity
