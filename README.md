@@ -1,7 +1,17 @@
 
-# README.md
+# Project Introduction/Goal
 
-For our Module 2 final project, we were tasked with cleaning up a housing data set for King County in Washington and performing a multiple linear regression analysis on the data. Our aim was to build a model that successfully predicts the price of a house using features from our data set. 
+For my Module 2 final project, I was tasked with cleaning up a housing data set for King County in Washington and performing a multiple linear regression analysis on the data. The aim was to build a model that successfully predicts the price of a house using features from our data set. 
+
+# Libraries used in this project
+* Pandas
+* NumPy
+* Matplotlib
+* Seaborn
+* sklearn
+* SciPy
+* statsmodels
+
 
 # Obtain Data
 
