@@ -51,8 +51,6 @@ Dropping sqft-living.
 
 The remaining collinear variables, sqft_above & grade, we will keep for now, as their variables represent two entirely different measurements, area and condition.
 
-![png](output_73_0.png)
-
 
 ## Dealing with Categorical Variables
 
