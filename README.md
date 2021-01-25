@@ -89,8 +89,6 @@ One-hot encoding our sector column.
 
 Turn into binary category.
 
-## Second Multi-Collinearity Check
-
 ## Dealing with Continuous Variables
 
 ### Log-Transformations
@@ -160,9 +158,7 @@ Our RMSE is much lower now, by 60,000. The Train and Test RSMEs are close to eac
 For every change in X, our Y (Price) will fluctuate about 136,000.
 
 # Cross-Validation
-10-fold cross validation of our test/train split.
-
-# Checking Normality Assumption 
+10-fold cross validation of our test/train split. 
 
 # Conclusions
 
