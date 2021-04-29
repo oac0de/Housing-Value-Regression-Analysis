@@ -51,8 +51,6 @@ Dropping sqft-living.
 
 The remaining collinear variables, sqft_above & grade, we will keep for now, as their variables represent two entirely different measurements, area and condition.
 
-![png](output_73_0.png)
-
 
 ## Dealing with Categorical Variables
 
@@ -90,8 +88,6 @@ One-hot encoding our sector column.
 ### 'sqft_basement'
 
 Turn into binary category.
-
-## Second Multi-Collinearity Check
 
 ## Dealing with Continuous Variables
 
@@ -162,9 +158,7 @@ Our RMSE is much lower now, by 60,000. The Train and Test RSMEs are close to eac
 For every change in X, our Y (Price) will fluctuate about 136,000.
 
 # Cross-Validation
-10-fold cross validation of our test/train split.
-
-# Checking Normality Assumption 
+10-fold cross validation of our test/train split. 
 
 # Conclusions
 
@@ -179,17 +173,31 @@ Even with outliers removed, however, some variance is still prominent in the hig
 # Visualizations of Strongest Predictors
 ## Grade vs Price
 
+<<<<<<< HEAD
 <img src='~/../images/output_211_0.png'>
 
 <img src='~/../images/output_212_0.png'>
+=======
+<img src='~/../README_files.md/output_211_0.png'>
+
+
+<img src='~/../README_files.md/output_212_0.png'>
+>>>>>>> c3b3ded1dcbb47861b7d43d615ec8c9e5b9a59c6
 
 
 ## Sqft-Above vs. Price
 
+<<<<<<< HEAD
 <img src='~/../images/output_214_0.png'>
 
 
 <img src='~/../images/output_215_0.png'>
+=======
+<img src='~/../README_files.md/output_214_0.png'>
+
+
+<img src='~/../README_files.md/output_215_0.png'>
+>>>>>>> c3b3ded1dcbb47861b7d43d615ec8c9e5b9a59c6
 
 
 Here we can see there is potential for picking a good candidate for renovation. Some houses with lower grades (lower prices) do share the amount of square footage as homes with higher grades. Considering such, a good pick would be a lower grade home (5-6) and renovating it, thereby increasing the grade hopefully (7-10) and subsequent price, without altering the square-footage.
@@ -197,5 +205,9 @@ Here we can see there is potential for picking a good candidate for renovation. 
 ## Waterfront
 
 
+<<<<<<< HEAD
 <img src='~/../images/output_218_0.png'>
+=======
+<img src='~/../README_files.md/output_218_0.png'>
+>>>>>>> c3b3ded1dcbb47861b7d43d615ec8c9e5b9a59c6
 
