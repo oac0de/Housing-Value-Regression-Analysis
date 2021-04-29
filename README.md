@@ -179,19 +179,17 @@ Even with outliers removed, however, some variance is still prominent in the hig
 # Visualizations of Strongest Predictors
 ## Grade vs Price
 
+<img src='~/../images/output_211_0.png'>
 
-![png](output_211_0.png)
-
-
-![png](output_212_0.png)
+<img src='~/../images/output_212_0.png'>
 
 
 ## Sqft-Above vs. Price
 
-![png](output_214_0.png)
+<img src='~/../images/output_214_0.png'>
 
 
-![png](output_215_0.png)
+<img src='~/../images/output_215_0.png'>
 
 
 Here we can see there is potential for picking a good candidate for renovation. Some houses with lower grades (lower prices) do share the amount of square footage as homes with higher grades. Considering such, a good pick would be a lower grade home (5-6) and renovating it, thereby increasing the grade hopefully (7-10) and subsequent price, without altering the square-footage.
@@ -199,5 +197,5 @@ Here we can see there is potential for picking a good candidate for renovation. 
 ## Waterfront
 
 
-![png](output_218_0.png)
+<img src='~/../images/output_218_0.png'>
 
